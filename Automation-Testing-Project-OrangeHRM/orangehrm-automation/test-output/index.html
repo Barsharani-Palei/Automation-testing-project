@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" class="navigator-link">
+              <span class="suite-name border-failed">OrangeHRM Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-OrangeHRM_Automation_Suite" class="navigator-link ">
+                    <span>E:\Automation-Testing-Project-OrangeHRM\orangehrm-automation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-OrangeHRM_Automation_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-OrangeHRM_Automation_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-OrangeHRM_Automation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-OrangeHRM_Automation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-OrangeHRM_Automation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-OrangeHRM_Automation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">27 methods, 1 failed,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" class="hide-methods failed suite-OrangeHRM_Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-OrangeHRM_Automation_Suite -->
+                      <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" class="show-methods failed suite-OrangeHRM_Automation_Suite"> (show)</a> <!-- show-methods failed suite-OrangeHRM_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-OrangeHRM_Automation_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.AdminTest" class="method navigator-link" hash-for-method="testSearchEmployeeByName">testSearchEmployeeByName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-OrangeHRM_Automation_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" class="hide-methods passed suite-OrangeHRM_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-OrangeHRM_Automation_Suite -->
+                      <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" class="show-methods passed suite-OrangeHRM_Automation_Suite"> (show)</a> <!-- show-methods passed suite-OrangeHRM_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-OrangeHRM_Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.PIMTest" class="method navigator-link" hash-for-method="testAddEmployee">testAddEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.PIMTest" class="method navigator-link" hash-for-method="testBackToEmployeeList">testBackToEmployeeList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.LoginTest" class="method navigator-link" hash-for-method="testBlankFieldLogin">testBlankFieldLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.DashboardTest" class="method navigator-link" hash-for-method="testDashboardLoad">testDashboardLoad</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.PIMTest" class="method navigator-link" hash-for-method="testEditEmployee">testEditEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.PIMTest" class="method navigator-link" hash-for-method="testEmpIdAutoGeneration">testEmpIdAutoGeneration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.LoginTest" class="method navigator-link" hash-for-method="testForgotPasswordLink">testForgotPasswordLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.LoginTest" class="method navigator-link" hash-for-method="testInvaidUsername">testInvaidUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.PIMTest" class="method navigator-link" hash-for-method="testInvalidEmployeeSearch">testInvalidEmployeeSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.PIMTest" class="method navigator-link" hash-for-method="testMandatoryFieldsValidation">testMandatoryFieldsValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.PIMTest" class="method navigator-link" hash-for-method="testNavigateToPIM">testNavigateToPIM</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.PIMTest" class="method navigator-link" hash-for-method="testOpenAddEmployee">testOpenAddEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.LoginTest" class="method navigator-link" hash-for-method="testPasswordFieldIsMasked">testPasswordFieldIsMasked</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.DashboardTest" class="method navigator-link" hash-for-method="testProfileDropdownOptions">testProfileDropdownOptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.DashboardTest" class="method navigator-link" hash-for-method="testQuickLaunchNavigation">testQuickLaunchNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.PIMTest" class="method navigator-link" hash-for-method="testSearchEmployee">testSearchEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.DashboardTest" class="method navigator-link" hash-for-method="testSidebarToggle">testSidebarToggle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.PIMTest" class="method navigator-link" hash-for-method="testUploadPhoto">testUploadPhoto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.LoginTest" class="method navigator-link" hash-for-method="testValidLogin">testValidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.LoginTest" class="method navigator-link" hash-for-method="testWrongPass">testWrongPass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.LogoutTest" class="method navigator-link" hash-for-method="verifyLogoutOptionVisible">verifyLogoutOptionVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.AdminTest" class="method navigator-link" hash-for-method="verifyNavigationToAdmin">verifyNavigationToAdmin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.AdminTest" class="method navigator-link" hash-for-method="verifySearchUser">verifySearchUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.LogoutTest" class="method navigator-link" hash-for-method="verifySessionExpires">verifySessionExpires</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.LogoutTest" class="method navigator-link" hash-for-method="verifyUserCanLogout">verifyUserCanLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeHRM_Automation_Suite" title="testcases.AdminTest" class="method navigator-link" hash-for-method="verifyUserRolesDisplayed">verifyUserRolesDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-OrangeHRM_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-OrangeHRM_Automation_Suite" class="panel OrangeHRM_Automation_Suite">
+          <div class="suite-OrangeHRM_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.AdminTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchEmployeeByName">
+                  </a> <!-- testSearchEmployeeByName -->
+                  <span class="method-name">testSearchEmployeeByName</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@role=&apos;option&apos;]//span[contains(text(),&apos;Timothy Amiano&apos;)] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\barsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56068}, goog:processID: 19288, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56068/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d7bebbf6230ba7f8447103be04ad68c6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pages.AdminPage.searchEmployeeByName(AdminPage.java:90)
+	at testcases.AdminTest.testSearchEmployeeByName(AdminTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify search by employee name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Automation_Suite-class-failed -->
+          <div class="suite-OrangeHRM_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBlankFieldLogin">
+                  </a> <!-- testBlankFieldLogin -->
+                  <span class="method-name">testBlankFieldLogin</span>
+                  <em>
+( TC_LOGIN_01 - Validate login with empty fields)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testForgotPasswordLink">
+                  </a> <!-- testForgotPasswordLink -->
+                  <span class="method-name">testForgotPasswordLink</span>
+                  <em>
+(TC_LOGIN_05 - Validate forgot password page opens)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvaidUsername">
+                  </a> <!-- testInvaidUsername -->
+                  <span class="method-name">testInvaidUsername</span>
+                  <em>
+( TC_LOGIN_02 - Validate login with invalid username)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPasswordFieldIsMasked">
+                  </a> <!-- testPasswordFieldIsMasked -->
+                  <span class="method-name">testPasswordFieldIsMasked</span>
+                  <em>
+(TC_LOGIN_04 - Validate that the password field is masked)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidLogin">
+                  </a> <!-- testValidLogin -->
+                  <span class="method-name">testValidLogin</span>
+                  <em>
+( TC_LOGIN_06 - Validate login with valid credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWrongPass">
+                  </a> <!-- testWrongPass -->
+                  <span class="method-name">testWrongPass</span>
+                  <em>
+( TC_LOGIN_03 - Validate login with wrong password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Automation_Suite-class-passed -->
+          <div class="suite-OrangeHRM_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.DashboardTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDashboardLoad">
+                  </a> <!-- testDashboardLoad -->
+                  <span class="method-name">testDashboardLoad</span>
+                  <em>
+(TC_DASHBOARD_01 - Validate Dashboard loads correctly after successful login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProfileDropdownOptions">
+                  </a> <!-- testProfileDropdownOptions -->
+                  <span class="method-name">testProfileDropdownOptions</span>
+                  <em>
+(TC_DASHBOARD_03 - Verify profile dropdown options)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testQuickLaunchNavigation">
+                  </a> <!-- testQuickLaunchNavigation -->
+                  <span class="method-name">testQuickLaunchNavigation</span>
+                  <em>
+(TC_DASHBOARD_02 - Validate Quick Launch navigation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSidebarToggle">
+                  </a> <!-- testSidebarToggle -->
+                  <span class="method-name">testSidebarToggle</span>
+                  <em>
+(TC_DASHBOARD_04 - Verify sidebar expand and collapse)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Automation_Suite-class-passed -->
+          <div class="suite-OrangeHRM_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.LogoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogoutOptionVisible">
+                  </a> <!-- verifyLogoutOptionVisible -->
+                  <span class="method-name">verifyLogoutOptionVisible</span>
+                  <em>
+(TC_LOGOUT_03 - Verify logout option visible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySessionExpires">
+                  </a> <!-- verifySessionExpires -->
+                  <span class="method-name">verifySessionExpires</span>
+                  <em>
+(TC_LOGOUT_02 - Verify session expires)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserCanLogout">
+                  </a> <!-- verifyUserCanLogout -->
+                  <span class="method-name">verifyUserCanLogout</span>
+                  <em>
+(TC_LOGOUT_01 - Verify user can logout)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Automation_Suite-class-passed -->
+          <div class="suite-OrangeHRM_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.PIMTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddEmployee">
+                  </a> <!-- testAddEmployee -->
+                  <span class="method-name">testAddEmployee</span>
+                  <em>
+(TC_PIM_03 - Validate that new employee can be added successfully.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBackToEmployeeList">
+                  </a> <!-- testBackToEmployeeList -->
+                  <span class="method-name">testBackToEmployeeList</span>
+                  <em>
+(navigation back to Employee List after saving employee details.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEditEmployee">
+                  </a> <!-- testEditEmployee -->
+                  <span class="method-name">testEditEmployee</span>
+                  <em>
+(TC_PIM_10 - Validate that employee details can be edited successfully.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmpIdAutoGeneration">
+                  </a> <!-- testEmpIdAutoGeneration -->
+                  <span class="method-name">testEmpIdAutoGeneration</span>
+                  <em>
+(TC_PIM_06 - Validate employee ID auto-generation.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidEmployeeSearch">
+                  </a> <!-- testInvalidEmployeeSearch -->
+                  <span class="method-name">testInvalidEmployeeSearch</span>
+                  <em>
+(TC_PIM_09 - Validate that searching invalid employee shows 'No Records Found'.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMandatoryFieldsValidation">
+                  </a> <!-- testMandatoryFieldsValidation -->
+                  <span class="method-name">testMandatoryFieldsValidation</span>
+                  <em>
+(TC_PIM_04 - Validate that mandatory field validation messages are displayed.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigateToPIM">
+                  </a> <!-- testNavigateToPIM -->
+                  <span class="method-name">testNavigateToPIM</span>
+                  <em>
+(TC_PIM_01 - Validate if user can navigate to the PIM module successfully.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOpenAddEmployee">
+                  </a> <!-- testOpenAddEmployee -->
+                  <span class="method-name">testOpenAddEmployee</span>
+                  <em>
+(TC_PIM_02 - Validate that Add Employee page opens successfully.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchEmployee">
+                  </a> <!-- testSearchEmployee -->
+                  <span class="method-name">testSearchEmployee</span>
+                  <em>
+(TC_PIM_08 - Validate employee search by name.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUploadPhoto">
+                  </a> <!-- testUploadPhoto -->
+                  <span class="method-name">testUploadPhoto</span>
+                  <em>
+(TC_PIM_05 - Validate profile photo upload functionality.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Automation_Suite-class-passed -->
+          <div class="suite-OrangeHRM_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.AdminTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNavigationToAdmin">
+                  </a> <!-- verifyNavigationToAdmin -->
+                  <span class="method-name">verifyNavigationToAdmin</span>
+                  <em>
+(TC_ADMIN_01 - Verify navigation to Admin module)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchUser">
+                  </a> <!-- verifySearchUser -->
+                  <span class="method-name">verifySearchUser</span>
+                  <em>
+(TC_ADMIN_02 - Verify searching for a user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserRolesDisplayed">
+                  </a> <!-- verifyUserRolesDisplayed -->
+                  <span class="method-name">verifyUserRolesDisplayed</span>
+                  <em>
+(TC_ADMIN_03 - Verify user roles displayed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeHRM_Automation_Suite-class-passed -->
+        </div> <!-- panel OrangeHRM_Automation_Suite -->
+        <div panel-name="test-xml-OrangeHRM_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Automation-Testing-Project-OrangeHRM\orangehrm-automation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;OrangeHRM Automation Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.LoginTest&quot;/&gt;
+      &lt;class name=&quot;testcases.DashboardTest&quot;/&gt;
+      &lt;class name=&quot;testcases.PIMTest&quot;/&gt;
+      &lt;class name=&quot;testcases.AdminTest&quot;/&gt;
+      &lt;class name=&quot;testcases.LogoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- OrangeHRM Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-OrangeHRM_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for OrangeHRM Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-OrangeHRM_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for OrangeHRM Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-OrangeHRM_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for OrangeHRM Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_OrangeHRM_Automation_Suite');
+function tableData_OrangeHRM_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(27);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testSearchEmployeeByName')
+data.setCell(0, 2, 'testcases.AdminTest')
+data.setCell(0, 3, 31669);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSearchEmployee')
+data.setCell(1, 2, 'testcases.PIMTest')
+data.setCell(1, 3, 12630);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyNavigationToAdmin')
+data.setCell(2, 2, 'testcases.AdminTest')
+data.setCell(2, 3, 10106);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testQuickLaunchNavigation')
+data.setCell(3, 2, 'testcases.DashboardTest')
+data.setCell(3, 3, 10008);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testAddEmployee')
+data.setCell(4, 2, 'testcases.PIMTest')
+data.setCell(4, 3, 7517);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifySessionExpires')
+data.setCell(5, 2, 'testcases.LogoutTest')
+data.setCell(5, 3, 6854);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testInvalidEmployeeSearch')
+data.setCell(6, 2, 'testcases.PIMTest')
+data.setCell(6, 3, 5786);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testValidLogin')
+data.setCell(7, 2, 'testcases.LoginTest')
+data.setCell(7, 3, 5699);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testEditEmployee')
+data.setCell(8, 2, 'testcases.PIMTest')
+data.setCell(8, 3, 4739);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyUserCanLogout')
+data.setCell(9, 2, 'testcases.LogoutTest')
+data.setCell(9, 3, 4129);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testMandatoryFieldsValidation')
+data.setCell(10, 2, 'testcases.PIMTest')
+data.setCell(10, 3, 3783);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifySearchUser')
+data.setCell(11, 2, 'testcases.AdminTest')
+data.setCell(11, 3, 3133);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testWrongPass')
+data.setCell(12, 2, 'testcases.LoginTest')
+data.setCell(12, 3, 2788);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testInvaidUsername')
+data.setCell(13, 2, 'testcases.LoginTest')
+data.setCell(13, 3, 2571);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testUploadPhoto')
+data.setCell(14, 2, 'testcases.PIMTest')
+data.setCell(14, 3, 2563);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testForgotPasswordLink')
+data.setCell(15, 2, 'testcases.LoginTest')
+data.setCell(15, 3, 2293);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyLogoutOptionVisible')
+data.setCell(16, 2, 'testcases.LogoutTest')
+data.setCell(16, 3, 2273);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testSidebarToggle')
+data.setCell(17, 2, 'testcases.DashboardTest')
+data.setCell(17, 3, 2106);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testEmpIdAutoGeneration')
+data.setCell(18, 2, 'testcases.PIMTest')
+data.setCell(18, 3, 1946);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testBackToEmployeeList')
+data.setCell(19, 2, 'testcases.PIMTest')
+data.setCell(19, 3, 1773);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testDashboardLoad')
+data.setCell(20, 2, 'testcases.DashboardTest')
+data.setCell(20, 3, 1683);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyUserRolesDisplayed')
+data.setCell(21, 2, 'testcases.AdminTest')
+data.setCell(21, 3, 1649);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testOpenAddEmployee')
+data.setCell(22, 2, 'testcases.PIMTest')
+data.setCell(22, 3, 1032);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testBlankFieldLogin')
+data.setCell(23, 2, 'testcases.LoginTest')
+data.setCell(23, 3, 860);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testProfileDropdownOptions')
+data.setCell(24, 2, 'testcases.DashboardTest')
+data.setCell(24, 3, 548);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testPasswordFieldIsMasked')
+data.setCell(25, 2, 'testcases.LoginTest')
+data.setCell(25, 3, 543);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testNavigateToPIM')
+data.setCell(26, 2, 'testcases.PIMTest')
+data.setCell(26, 3, 9);
+window.suiteTableData['OrangeHRM_Automation_Suite']= { tableData: data, tableDiv: 'times-div-OrangeHRM_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-OrangeHRM_Automation_Suite">
+              </div> <!-- times-div-OrangeHRM_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-OrangeHRM_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for OrangeHRM Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-OrangeHRM_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-OrangeHRM_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testBlankFieldLogin</span>
+                <span class="method-start">6303 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7168 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">7414 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInvaidUsername</span>
+                <span class="method-start">12404 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14978 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">15252 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testWrongPass</span>
+                <span class="method-start">25515 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28303 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">28528 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidLogin</span>
+                <span class="method-start">33376 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39077 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">39318 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPasswordFieldIsMasked</span>
+                <span class="method-start">43880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44427 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">44663 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testForgotPasswordLink</span>
+                <span class="method-start">50009 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">52305 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.DashboardTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">52575 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testDashboardLoad</span>
+                <span class="method-start">61903 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testQuickLaunchNavigation</span>
+                <span class="method-start">63595 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testProfileDropdownOptions</span>
+                <span class="method-start">73604 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSidebarToggle</span>
+                <span class="method-start">74156 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">76264 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.PIMTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">76526 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testNavigateToPIM</span>
+                <span class="method-start">88364 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOpenAddEmployee</span>
+                <span class="method-start">88377 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddEmployee</span>
+                <span class="method-start">89411 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMandatoryFieldsValidation</span>
+                <span class="method-start">96928 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testEmpIdAutoGeneration</span>
+                <span class="method-start">100711 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUploadPhoto</span>
+                <span class="method-start">102657 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchEmployee</span>
+                <span class="method-start">105224 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInvalidEmployeeSearch</span>
+                <span class="method-start">117854 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testEditEmployee</span>
+                <span class="method-start">123640 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBackToEmployeeList</span>
+                <span class="method-start">128380 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">130154 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.AdminTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">130478 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyNavigationToAdmin</span>
+                <span class="method-start">139906 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchUser</span>
+                <span class="method-start">150012 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyUserRolesDisplayed</span>
+                <span class="method-start">153145 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearchEmployeeByName</span>
+                <span class="method-start">154794 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">186463 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.LogoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">186791 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogoutOptionVisible</span>
+                <span class="method-start">197926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyUserCanLogout</span>
+                <span class="method-start">200199 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySessionExpires</span>
+                <span class="method-start">204328 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">211183 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

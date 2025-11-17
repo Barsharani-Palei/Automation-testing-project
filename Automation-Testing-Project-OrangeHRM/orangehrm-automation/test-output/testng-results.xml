@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="26" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-17T20:54:08 IST" name="OrangeHRM Automation Suite" finished-at="2025-11-17T20:57:39 IST" duration-ms="211519">
+    <groups>
+    </groups>
+    <test started-at="2025-11-17T20:54:08 IST" name="Test" finished-at="2025-11-17T20:57:39 IST" duration-ms="211519">
+      <class name="testcases.LogoutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LogoutTest@6f01b95f]" started-at="2025-11-17T20:57:14 IST" name="setup" finished-at="2025-11-17T20:57:25 IST" duration-ms="11135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogoutOptionVisible()[pri:1, instance:testcases.LogoutTest@6f01b95f]" started-at="2025-11-17T20:57:25 IST" name="verifyLogoutOptionVisible" description="TC_LOGOUT_03 - Verify logout option visible" finished-at="2025-11-17T20:57:28 IST" duration-ms="2273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutOptionVisible -->
+        <test-method signature="verifyUserCanLogout()[pri:2, instance:testcases.LogoutTest@6f01b95f]" started-at="2025-11-17T20:57:28 IST" name="verifyUserCanLogout" description="TC_LOGOUT_01 - Verify user can logout" finished-at="2025-11-17T20:57:32 IST" duration-ms="4129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanLogout -->
+        <test-method signature="verifySessionExpires()[pri:3, instance:testcases.LogoutTest@6f01b95f]" started-at="2025-11-17T20:57:32 IST" name="verifySessionExpires" description="TC_LOGOUT_02 - Verify session expires" finished-at="2025-11-17T20:57:39 IST" duration-ms="6854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySessionExpires -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LogoutTest@6f01b95f]" started-at="2025-11-17T20:57:39 IST" name="tearDown" finished-at="2025-11-17T20:57:39 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LogoutTest -->
+      <class name="testcases.DashboardTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.DashboardTest@6f53b8a]" started-at="2025-11-17T20:55:00 IST" name="setup" finished-at="2025-11-17T20:55:09 IST" duration-ms="9326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testDashboardLoad()[pri:1, instance:testcases.DashboardTest@6f53b8a]" started-at="2025-11-17T20:55:09 IST" name="testDashboardLoad" description="TC_DASHBOARD_01 - Validate Dashboard loads correctly after successful login" finished-at="2025-11-17T20:55:11 IST" duration-ms="1683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashboardLoad -->
+        <test-method signature="testQuickLaunchNavigation()[pri:2, instance:testcases.DashboardTest@6f53b8a]" started-at="2025-11-17T20:55:11 IST" name="testQuickLaunchNavigation" description="TC_DASHBOARD_02 - Validate Quick Launch navigation" finished-at="2025-11-17T20:55:21 IST" duration-ms="10008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuickLaunchNavigation -->
+        <test-method signature="testProfileDropdownOptions()[pri:3, instance:testcases.DashboardTest@6f53b8a]" started-at="2025-11-17T20:55:21 IST" name="testProfileDropdownOptions" description="TC_DASHBOARD_03 - Verify profile dropdown options" finished-at="2025-11-17T20:55:22 IST" duration-ms="548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProfileDropdownOptions -->
+        <test-method signature="testSidebarToggle()[pri:4, instance:testcases.DashboardTest@6f53b8a]" started-at="2025-11-17T20:55:22 IST" name="testSidebarToggle" description="TC_DASHBOARD_04 - Verify sidebar expand and collapse" finished-at="2025-11-17T20:55:24 IST" duration-ms="2106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSidebarToggle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashboardTest@6f53b8a]" started-at="2025-11-17T20:55:24 IST" name="tearDown" finished-at="2025-11-17T20:55:24 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.DashboardTest -->
+      <class name="testcases.AdminTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AdminTest@7d900ecf]" started-at="2025-11-17T20:56:18 IST" name="setup" finished-at="2025-11-17T20:56:27 IST" duration-ms="9426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNavigationToAdmin()[pri:1, instance:testcases.AdminTest@7d900ecf]" started-at="2025-11-17T20:56:27 IST" name="verifyNavigationToAdmin" description="TC_ADMIN_01 - Verify navigation to Admin module" finished-at="2025-11-17T20:56:38 IST" duration-ms="10106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationToAdmin -->
+        <test-method signature="verifySearchUser()[pri:2, instance:testcases.AdminTest@7d900ecf]" started-at="2025-11-17T20:56:38 IST" name="verifySearchUser" description="TC_ADMIN_02 - Verify searching for a user" finished-at="2025-11-17T20:56:41 IST" duration-ms="3133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchUser -->
+        <test-method signature="verifyUserRolesDisplayed()[pri:3, instance:testcases.AdminTest@7d900ecf]" started-at="2025-11-17T20:56:41 IST" name="verifyUserRolesDisplayed" description="TC_ADMIN_03 - Verify user roles displayed" finished-at="2025-11-17T20:56:42 IST" duration-ms="1649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserRolesDisplayed -->
+        <test-method signature="testSearchEmployeeByName()[pri:4, instance:testcases.AdminTest@7d900ecf]" started-at="2025-11-17T20:56:42 IST" name="testSearchEmployeeByName" description="Verify search by employee name" finished-at="2025-11-17T20:57:14 IST" duration-ms="31669" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[@role='option']//span[contains(text(),'Timothy Amiano')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\barsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56068}, goog:processID: 19288, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56068/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d7bebbf6230ba7f8447103be04ad68c6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@role='option']//span[contains(text(),'Timothy Amiano')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\barsh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56068}, goog:processID: 19288, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56068/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d7bebbf6230ba7f8447103be04ad68c6
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pages.AdminPage.searchEmployeeByName(AdminPage.java:90)
+at testcases.AdminTest.testSearchEmployeeByName(AdminTest.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchEmployeeByName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AdminTest@7d900ecf]" started-at="2025-11-17T20:57:14 IST" name="tearDown" finished-at="2025-11-17T20:57:14 IST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.AdminTest -->
+      <class name="testcases.PIMTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.PIMTest@5c80cf32]" started-at="2025-11-17T20:55:24 IST" name="setup" finished-at="2025-11-17T20:55:36 IST" duration-ms="11838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testNavigateToPIM()[pri:1, instance:testcases.PIMTest@5c80cf32]" started-at="2025-11-17T20:55:36 IST" name="testNavigateToPIM" description="TC_PIM_01 - Validate if user can navigate to the PIM module successfully." finished-at="2025-11-17T20:55:36 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToPIM -->
+        <test-method signature="testOpenAddEmployee()[pri:2, instance:testcases.PIMTest@5c80cf32]" started-at="2025-11-17T20:55:36 IST" name="testOpenAddEmployee" description="TC_PIM_02 - Validate that Add Employee page opens successfully." finished-at="2025-11-17T20:55:37 IST" duration-ms="1032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenAddEmployee -->
+        <test-method signature="testAddEmployee()[pri:3, instance:testcases.PIMTest@5c80cf32]" started-at="2025-11-17T20:55:37 IST" name="testAddEmployee" description="TC_PIM_03 - Validate that new employee can be added successfully." finished-at="2025-11-17T20:55:44 IST" duration-ms="7517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEmployee -->
+        <test-method signature="testMandatoryFieldsValidation()[pri:4, instance:testcases.PIMTest@5c80cf32]" started-at="2025-11-17T20:55:44 IST" name="testMandatoryFieldsValidation" description="TC_PIM_04 - Validate that mandatory field validation messages are displayed." finished-at="2025-11-17T20:55:48 IST" duration-ms="3783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMandatoryFieldsValidation -->
+        <test-method signature="testEmpIdAutoGeneration()[pri:5, instance:testcases.PIMTest@5c80cf32]" started-at="2025-11-17T20:55:48 IST" name="testEmpIdAutoGeneration" description="TC_PIM_06 - Validate employee ID auto-generation." finished-at="2025-11-17T20:55:50 IST" duration-ms="1946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmpIdAutoGeneration -->
+        <test-method signature="testUploadPhoto()[pri:6, instance:testcases.PIMTest@5c80cf32]" started-at="2025-11-17T20:55:50 IST" name="testUploadPhoto" description="TC_PIM_05 - Validate profile photo upload functionality." finished-at="2025-11-17T20:55:53 IST" duration-ms="2563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUploadPhoto -->
+        <test-method signature="testSearchEmployee()[pri:7, instance:testcases.PIMTest@5c80cf32]" started-at="2025-11-17T20:55:53 IST" name="testSearchEmployee" description="TC_PIM_08 - Validate employee search by name." finished-at="2025-11-17T20:56:05 IST" duration-ms="12630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchEmployee -->
+        <test-method signature="testInvalidEmployeeSearch()[pri:8, instance:testcases.PIMTest@5c80cf32]" started-at="2025-11-17T20:56:05 IST" name="testInvalidEmployeeSearch" description="TC_PIM_09 - Validate that searching invalid employee shows &#039;No Records Found&#039;." finished-at="2025-11-17T20:56:11 IST" duration-ms="5786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidEmployeeSearch -->
+        <test-method signature="testEditEmployee()[pri:9, instance:testcases.PIMTest@5c80cf32]" started-at="2025-11-17T20:56:11 IST" name="testEditEmployee" description="TC_PIM_10 - Validate that employee details can be edited successfully." finished-at="2025-11-17T20:56:16 IST" duration-ms="4739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditEmployee -->
+        <test-method signature="testBackToEmployeeList()[pri:11, instance:testcases.PIMTest@5c80cf32]" started-at="2025-11-17T20:56:16 IST" name="testBackToEmployeeList" description="navigation back to Employee List after saving employee details." finished-at="2025-11-17T20:56:18 IST" duration-ms="1773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBackToEmployeeList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.PIMTest@5c80cf32]" started-at="2025-11-17T20:56:18 IST" name="tearDown" finished-at="2025-11-17T20:56:18 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.PIMTest -->
+      <class name="testcases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@5386659f]" started-at="2025-11-17T20:54:08 IST" name="setup" finished-at="2025-11-17T20:54:14 IST" duration-ms="6303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testBlankFieldLogin()[pri:1, instance:testcases.LoginTest@5386659f]" started-at="2025-11-17T20:54:14 IST" name="testBlankFieldLogin" description=" TC_LOGIN_01 - Validate login with empty fields" finished-at="2025-11-17T20:54:15 IST" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBlankFieldLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@5386659f]" started-at="2025-11-17T20:54:15 IST" name="tearDown" finished-at="2025-11-17T20:54:15 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@5386659f]" started-at="2025-11-17T20:54:15 IST" name="setup" finished-at="2025-11-17T20:54:20 IST" duration-ms="4990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testInvaidUsername()[pri:2, instance:testcases.LoginTest@5386659f]" started-at="2025-11-17T20:54:20 IST" name="testInvaidUsername" description=" TC_LOGIN_02 - Validate login with invalid username" finished-at="2025-11-17T20:54:23 IST" duration-ms="2571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvaidUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@5386659f]" started-at="2025-11-17T20:54:23 IST" name="tearDown" finished-at="2025-11-17T20:54:23 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@5386659f]" started-at="2025-11-17T20:54:23 IST" name="setup" finished-at="2025-11-17T20:54:33 IST" duration-ms="10263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testWrongPass()[pri:3, instance:testcases.LoginTest@5386659f]" started-at="2025-11-17T20:54:33 IST" name="testWrongPass" description=" TC_LOGIN_03 - Validate login with wrong password" finished-at="2025-11-17T20:54:36 IST" duration-ms="2788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongPass -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@5386659f]" started-at="2025-11-17T20:54:36 IST" name="tearDown" finished-at="2025-11-17T20:54:36 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@5386659f]" started-at="2025-11-17T20:54:36 IST" name="setup" finished-at="2025-11-17T20:54:41 IST" duration-ms="4848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testValidLogin()[pri:4, instance:testcases.LoginTest@5386659f]" started-at="2025-11-17T20:54:41 IST" name="testValidLogin" description=" TC_LOGIN_06 - Validate login with valid credentials" finished-at="2025-11-17T20:54:47 IST" duration-ms="5699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@5386659f]" started-at="2025-11-17T20:54:47 IST" name="tearDown" finished-at="2025-11-17T20:54:47 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@5386659f]" started-at="2025-11-17T20:54:47 IST" name="setup" finished-at="2025-11-17T20:54:51 IST" duration-ms="4562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPasswordFieldIsMasked()[pri:5, instance:testcases.LoginTest@5386659f]" started-at="2025-11-17T20:54:51 IST" name="testPasswordFieldIsMasked" description="TC_LOGIN_04 - Validate that the password field is masked" finished-at="2025-11-17T20:54:52 IST" duration-ms="543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordFieldIsMasked -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@5386659f]" started-at="2025-11-17T20:54:52 IST" name="tearDown" finished-at="2025-11-17T20:54:52 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@5386659f]" started-at="2025-11-17T20:54:52 IST" name="setup" finished-at="2025-11-17T20:54:58 IST" duration-ms="5346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testForgotPasswordLink()[pri:6, instance:testcases.LoginTest@5386659f]" started-at="2025-11-17T20:54:58 IST" name="testForgotPasswordLink" description="TC_LOGIN_05 - Validate forgot password page opens" finished-at="2025-11-17T20:55:00 IST" duration-ms="2293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPasswordLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@5386659f]" started-at="2025-11-17T20:55:00 IST" name="tearDown" finished-at="2025-11-17T20:55:00 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- OrangeHRM Automation Suite -->
+</testng-results>
