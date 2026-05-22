@@ -25,7 +25,8 @@ This project showcases automation testing skills using Selenium WebDriver and Te
 - Maven  
 - Excel for scenarios, cases & defect documentation  
 - GitHub for project hosting  
-- OrangeHRM Web Application  
+- OrangeHRM Web Application
+- JIRA for logging Defects
 
 ## 🎯 Objective
 To automate and validate core functionalities of the OrangeHRM application ensuring reliability, accuracy, and defect identification within critical HR management workflows.
